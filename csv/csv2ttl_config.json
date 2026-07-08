@@ -77,6 +77,55 @@
           "value": ""
         }
       ]
+    },
+    {
+      "id": "options",
+      "title": [
+        {
+        "lang": "de",
+        "value": "Beispieloption"
+        },
+        {
+        "lang": "en",
+        "value": "Example option"
+        },
+        {
+        "lang": "fr",
+        "value": "Option d'exemple"
+        },
+        {
+        "lang": "it",
+        "value": "Opzione di esempio"
+        },
+        {
+        "lang": "rm",
+        "value": "Opziun d'exempels"
+        }
+      ],
+      "filenameSource": "options.csv",
+      "filenameTarget": "options.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": "Beispieloption nach XY"
+        },
+        {
+          "lang": "en",
+          "value": ""
+        },
+        {
+          "lang": "fr",
+          "value": ""
+        },
+        {
+          "lang": "it",
+          "value": ""
+        },
+        {
+          "lang": "rm",
+          "value": ""
+        }
+      ]
     }
   ]
 }

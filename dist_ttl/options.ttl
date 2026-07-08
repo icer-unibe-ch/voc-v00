@@ -1,0 +1,57 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://icer-unibe-ch.github.io/voc-v00/options/>. 
+
+n0:v6g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Option A"@de,
+	"Option A"@fr,
+	"Opzione A"@it,
+	"Opziun A"@rm,
+	"Option A"@en.
+n0:b4z
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Option B"@de,
+	"Option B"@fr,
+	"Opzione B"@it,
+	"Opziun B"@rm,
+	"Option B"@en.
+n0:t2d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Option C"@de,
+	"Option C"@fr,
+	"Opzione C"@it,
+	"Opziun C"@rm,
+	"Option C"@en.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "ICER Universität Bern"@de,
+	"ICER Universität Bern"@fr,
+	"ICER Universität Bern"@it,
+	"ICER Universität Bern"@rm,
+	"ICER Universität Bern"@en;
+	dct:title "Beispielvokabular - Beispieloption"@de,
+	"Vocabulaire d'exemple - Option d'exemple"@fr,
+	"Vocabolario di esempio - Opzione di esempio"@it,
+	"Vocabulari exemplaric - Opziun d'exempels"@rm,
+	"Example vocabulary - Example option"@en;
+	dct:description "Beispieloption nach XY"@de,
+	""@en,
+	""@fr,
+	""@it,
+	""@rm;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:v6g,
+		n0:b4z,
+		n0:t2d.
