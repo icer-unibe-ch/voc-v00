@@ -1,0 +1,24 @@
+{
+  "name": "voc-v00",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add": "addidcsv",
+    "csv": "csv2ttl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icer-unibe-ch/voc-v00.git"
+  },
+  "author": "Nathanael Jost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icer-unibe-ch/voc-v00/issues"
+  },
+  "homepage": "https://github.com/icer-unibe-ch/voc-v00#readme",
+  "description": "",
+  "dependencies": {
+    "@iqb/csv2ttl": "^0.9.0"
+  }
+}

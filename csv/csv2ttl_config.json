@@ -1,0 +1,82 @@
+{
+  "id": "example",
+  "title": [
+    {
+      "lang": "de",
+      "value": "Beispielvokabular"
+    },
+    {
+      "lang": "en",
+      "value": "Example vocabulary"
+    },
+    {
+      "lang": "fr",
+      "value": "Vocabulaire d'exemple"
+    },
+    {
+      "lang": "it",
+      "value": "Vocabolario di esempio"
+    },
+    {
+      "lang": "rm",
+      "value": "Vocabulari exemplaric"
+    }
+  ],
+  "csv_delimiter": ",",
+  "base": "https://icer-unibe-ch.github.io/voc-v00",
+  "outDir": "dist_ttl",
+  "idPattern": "^[abcdefghprqstuvxyz]{1}[2345679]{1}[abcdefghprqstuvxyz]{1}$",
+  "creator": "ICER Universität Bern",
+  "license": "<https://creativecommons.org/publicdomain/zero/1.0/deed.de>",
+  "vocabularies": [
+    {
+      "id": "categories",
+      "title": [
+        {
+        "lang": "de",
+        "value": "Beispielkategorie"
+        },
+        {
+        "lang": "en",
+        "value": "Example category"
+        },
+        {
+        "lang": "fr",
+        "value": "Catégorie d'exemple"
+        },
+        {
+        "lang": "it",
+        "value": "Categoria di esempio"
+        },
+        {
+        "lang": "rm",
+        "value": "Categoria d'exempels"
+        }
+      ],
+      "filenameSource": "categories.csv",
+      "filenameTarget": "categories.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": "Beispielkategorie nach XY"
+        },
+        {
+          "lang": "en",
+          "value": ""
+        },
+        {
+          "lang": "fr",
+          "value": ""
+        },
+        {
+          "lang": "it",
+          "value": ""
+        },
+        {
+          "lang": "rm",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
