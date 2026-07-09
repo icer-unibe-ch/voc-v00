@@ -23,7 +23,7 @@
     }
   ],
   "csv_delimiter": ",",
-  "base": "https://icer-unibe-ch.github.io/voc-v00",
+  "base": "https://w3id.org/icer/voc-v00",
   "outDir": "dist_ttl",
   "idPattern": "^[abcdefghprqstuvxyz]{1}[2345679]{1}[abcdefghprqstuvxyz]{1}$",
   "creator": "ICER Universität Bern",
