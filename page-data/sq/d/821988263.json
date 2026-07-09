@@ -1,1 +1,1 @@
-{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://icer-unibe-ch.github.io/voc-v00/categories/","fields":{"languages":["de","fr","it","rm","en"]}}},{"node":{"id":"https://icer-unibe-ch.github.io/voc-v00/options/","fields":{"languages":["de","fr","it","rm","en"]}}}]}}}
+{"data":{"allConceptScheme":{"edges":[{"node":{"id":"https://w3id.org/icer/voc-v00/categories/","fields":{"languages":["de","fr","it","rm","en"]}}},{"node":{"id":"https://w3id.org/icer/voc-v00/options/","fields":{"languages":["de","fr","it","rm","en"]}}}]}}}
